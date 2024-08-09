@@ -1,6 +1,84 @@
-<html>
-    <title> Khalid Azmatullah </title>
-    <body>
-        <p> Hello World! </p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        article {
+            background: #fff;
+            padding: 2em;
+            margin: 2em 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            font-size: 1em;
+            color: #fff;
+            background: #333;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>Blog Post Title</h2>
+            <p><strong>Published on:</strong> August 9, 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel metus eu nulla interdum cursus. Duis ultrices turpis a nunc vehicula, non tincidunt mauris consectetur.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <article>
+            <h2>Another Blog Post Title</h2>
+            <p><strong>Published on:</strong> August 8, 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel metus eu nulla interdum cursus. Duis ultrices turpis a nunc vehicula, non tincidunt mauris consectetur.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
 </html>

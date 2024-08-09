@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(to bottom right, #e0eafc, #709ddb); /* Gradient background */
+        }
+        header {
+            background-color: #fff;
+            color: #24292e;
+            padding: 16px;
+            text-align: left;
+            margin: 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            position: center;
+            
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        article {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            width: 80%;
+            margin-left: 10%;
+        }
+        article h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        article p {
+            margin: 1em 0;
+        }
+        .btn {
+            display: inline-block;
+            font-size: 0.9em;
+            color: #709ddb;
+            text-decoration: none;
+            border: 1px solid #709ddb;
+            border-radius: 6px;
+            padding: 8px 12px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .btn:hover {
+            background-color: #709ddb;
+            color: #fff;
+        }
+        footer {
+            background-color: #24292e;
+            color: #fff;
+            text-align: center;
+            padding: 12px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9em;
+        }
+
+
+
+
+      * {
+  box-sizing: border-box;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 15px;
+}
+
+#myUL {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  
+
+  
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 80%;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+
+<h1> Search </h1>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+          
+
+
+
+            
+
+        </div>
+    </header>
+
+
+
+<article>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder= "Search" title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">
+        <h2>Blog Post Title</h2>
+        <p><strong>Published on:</strong> August 9, 2024</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel metus eu nulla interdum cursus. Duis ultrices turpis a nunc vehicula, non tincidunt mauris consectetur.</p>
+   </a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+
+</article>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

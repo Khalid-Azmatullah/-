@@ -61,6 +61,7 @@
             margin-left: 10%;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             margin-bottom: 20px;
+            borde: 0px;
         }
         .btn:hover {
             background-color: #eee;
@@ -128,11 +129,6 @@
 </head>
 <body>
     <header>
-        <script>
-            function goBack() {
-              window.history.back()
-            }
-            </script>
         <div class="container">
 
 <h1> Search &nbsp;  </h1>
@@ -182,8 +178,14 @@ function myFunction() {
 
 
 
-<a href="index.html" class="btn">Back</a>
+ <script>
+            function goBack() {
+              window.history.back()
+            }
+            </script>
 
+    
+<button class ="btn";onclick="goBack()">Back</button>
 
 
     <footer>

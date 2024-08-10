@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background: linear-gradient(to bottom right, #e0eafc, #709ddb);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #fff;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #000;
+            font-size: 2em;
+            margin-top: 0;
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-list li {
+            margin-bottom: 15px;
+        }
+        .contact-list h3 {
+            font-size: 1.2em;
+            margin: 0;
+            color: #000;
+        }
+        .contact-list p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+        .contact-list a {
+            color: #000;
+            text-decoration: none;
+        }
+        .contact-list a:hover {
+            text-decoration: underline;
+        }
+        .social-media {
+            margin-top: 20px;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: #0d6efd;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+        .social-media a:hover {
+            color: #0056b3;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #24292e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: relative;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Khalid Azmatullah</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Contact Details</h2>
+        <ul class="contact-list">
+            <li>
+                <h3>Address</h3>
+                <p>Navi Mumbai,</p>
+                <p>India.</p>
+            </li>
+            <li>
+                <h3>Email</h3>
+                <p><a href="mailto:khalidazy.2008@gmail.com">khalidazy.2008@gmail.com</a></p>
+            </li>
+            <li>
+                <h3>Phone</h3>
+                <p><a href="tel:+919321729780">(+91) 9321729780</a></p>
+            </li>
+        </ul>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <h3>Follow Me</h3>
+            <a href="https://www.instagram.com/khalid.0412" target="_blank" title="Instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank" title="Twitter">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_as_of_2021.png" alt="Twitter" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank" title="Facebook">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width: 30px; height: 30px;">
+            </a>
+            <!-- Add more social media links here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tech Insights Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

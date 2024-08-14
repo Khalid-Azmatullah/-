@@ -39,7 +39,7 @@ Thank you for stopping by and taking the time to check out my personal website. 
 **Stay tuned** for more updates and blog posts. Until then, happy browsing!
 
 Best Regards,    
- **Khalid Azmatullah** </br>
+ **Khalid Azmatullah** </br> </br>
             <a href="https://www.instagram.com/khalid.0412" target="_blank" title="Instagram">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;">
             </a>

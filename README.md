@@ -40,8 +40,6 @@ Thank you for stopping by and taking the time to check out my personal website. 
 
 Best Regards,    
  **Khalid Azmatullah**
-
-
             <a href="https://www.instagram.com/khalid.0412" target="_blank" title="Instagram">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;">
             </a>
@@ -51,5 +49,6 @@ Best Regards,
             <a href="https://open.spotify.com/user/31ed72y4ju4oez6ple33mcpssshe" target="_blank" title="Spotify">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/2024_Spotify_logo_without_text.svg" alt="Spotify" style="width: 30px; height: 30px;">
             </a>
+            [<img src="https://opencollective.com/excalidraw/tiers/sponsors/0/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/0/website)
 
  *This was written by ChatGPT. It is a testament to the power held by AI and how it can even be used by students.*

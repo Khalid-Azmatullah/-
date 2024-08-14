@@ -43,6 +43,7 @@ Best Regards,
             <a href="https://www.instagram.com/khalid.0412" target="_blank" title="Instagram">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;">
             </a>
+            &nbsp
             <a href="https://github.com/Khalid-Azmatullah" target="_blank" title="Github">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg" alt="Github" style="width: 30px; height: 30px;">
             </a>

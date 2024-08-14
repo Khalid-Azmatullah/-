@@ -43,11 +43,10 @@ Best Regards,
             <a href="https://www.instagram.com/khalid.0412" target="_blank" title="Instagram">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;">
             </a>
-            <picture style="width: 30px; height: 30px;">
-  <source media="(prefers-color-scheme: dark)" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg">
-  <source media="(prefers-color-scheme: light)" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg">
-  <img alt="GitHub" src="https://github.com/Khalid-Azmatullah">
-</picture>
+            <a href="https://github.com/Khalid-Azmatullah" target="_blank" title="Github">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg" alt="Github" style="width: 30px; height: 30px;">
+            </a>
+            </a>
             <a href="https://open.spotify.com/user/31ed72y4ju4oez6ple33mcpssshe" target="_blank" title="Spotify">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/2024_Spotify_logo_without_text.svg" alt="Spotify" style="width: 30px; height: 30px;">
             </a>

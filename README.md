@@ -44,7 +44,7 @@ Best Regards,
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;">
               </a>
               <a> 
-              &nbsp
+              &nbsp;
             </a>
             <a href="https://github.com/Khalid-Azmatullah" target="_blank" title="Github">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg" alt="Github" style="width: 30px; height: 30px;">

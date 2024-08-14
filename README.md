@@ -1,7 +1,7 @@
 
 # My Blog
 
-Last commit on : 
+Last commit on : 14-08-2024
 
 ## Hey there!
 

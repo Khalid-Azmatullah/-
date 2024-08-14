@@ -43,10 +43,10 @@ Best Regards,
             <a href="https://www.instagram.com/khalid.0412" target="_blank" title="Instagram">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;">
             </a>
-            <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://github.com/Khalid-Azmatullah">
+            <picture style="width: 30px; height: 30px;">
+  <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg">
+  <img alt="GitHub" src="https://github.com/Khalid-Azmatullah">
 </picture>
             <a href="https://open.spotify.com/user/31ed72y4ju4oez6ple33mcpssshe" target="_blank" title="Spotify">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/2024_Spotify_logo_without_text.svg" alt="Spotify" style="width: 30px; height: 30px;">

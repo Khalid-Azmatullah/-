@@ -49,6 +49,8 @@ Best Regards,
             <a href="https://github.com/Khalid-Azmatullah" target="_blank" title="Github">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg" alt="Github" style="width: 30px; height: 30px;">
             </a>
+              <a> 
+              &nbsp;
             </a>
             <a href="https://open.spotify.com/user/31ed72y4ju4oez6ple33mcpssshe" target="_blank" title="Spotify">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/2024_Spotify_logo_without_text.svg" alt="Spotify" style="width: 30px; height: 30px;">

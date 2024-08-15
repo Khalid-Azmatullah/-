@@ -1,0 +1,8 @@
+Today I celebrate 100+ commits and deployments of my website and the successful Blog #002 Release.
+However a pressing issue has been the lack of support and multiple bugs found when operating on mobile.
+
+I shall address these issues, but for now the website well and going!
+I might have to remove my number from contacts so as to protect my privacy but for now it can be as it is.
+
+I will create a specific blog page in future but It's not necessary right now.
+

@@ -6,6 +6,29 @@
     <title>Contact Me</title>
     <style>
         /* General Styles */
+    .videoframe {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      padding-top: 75%; /* 4:3 Aspect Ratio */
+      border-radius: 15px;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+
+
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
             margin: 0;
@@ -156,8 +179,9 @@ As a student, I’m always juggling between classes, assignments, and extracurri
 </p>
 <p>5. <strong>Inspired from NetworkChuck</strong>: A video from NetworkChuck about the need of personal website in 2024 has been a major pushing force to make this website.</p>
 </br>
-<iframe class="videobychuck" width="420" height="345" src="https://www.youtube.com/EXfFBEuCAr0">
-</iframe>
+<div class="videoframe"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/EXfFBEuCAr0"></iframe>
+</div>
 
 </br>
 

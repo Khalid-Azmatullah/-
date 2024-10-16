@@ -63,7 +63,7 @@ body {
   top: 16vh;
   position: relative;
 
-  grid-template-columns: repeat(auto-fit, minmax(385px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .blog {
@@ -163,4 +163,45 @@ body {
   vertical-align: middle;
   max-width: 100vw;
   max-height: 80vh;
+}
+
+@media only screen and (max-width: 500px) {
+  .fixedNavbar {
+    opacity: 0;
+  }
+  .blogPost {
+    top: 0px;
+  }
+  .mobileNavbar {
+    border-top: 1px solid hsl(0, 0%, 15%);
+    background-color: hsl(0, 0%, 15%);
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  .btn img{
+    height: 30px;
+  }
+
+  .mobileNavbar:hover{
+    background-color: hsl(0, 0%, 23%);
+  }
+
+  .mobileTop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 15%);
+    text-align: center;
+    height: 40px;
+  }
+  .mobileTop img {
+    height: 36px;
+  }
 }

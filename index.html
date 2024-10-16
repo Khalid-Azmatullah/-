@@ -1,279 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>Khalid Azmatullah</title>
-    <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="newCssStyle/index.css" rel="stylesheet">
+    <script src="javascript/index.js"></script>
+  </head>
+  <body>
+    <div class="fixedNavbar">
+      <img src="title.svg" alt="Khalid Azmatullah">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Blogs</a></li>
+        <li><a href="#contact">About</a></li>
+        <li><a href="#about" id="contact">Contact</a></li>
+      </ul>
+    </div>
 
-
-
-.mySlides {display:none;}
-
-
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #fff;
-            color: #24292e;
-            padding: 16px;
-            text-align: left;
-            margin: 0;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-            position: center;
-            padding: 0px;
-            
+    <div class="blogPost">
+      <div class="blog blog1">
+        <img src="images/96r1h3.jpg" alt="thumbnail">
+        <h2 class="blog1Title">Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#blog1" class="rmB">Read More</a>
+      </div>
+      <div class="blog blog2">
+        <img src="images/96r4uv.jpg" alt="thumbnail">
+        <h2 class="blog1Title">Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
-        }
-
-
-
-        .wallpaper1 {
-            background-image: url('Photos/IMG_20240811_144207.jpg');
-        }
-        .wallpaper2 {
-            background-image: url('Photos/IMG_20240811_161025.jpg');
-
-        }
-
-
-
-
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        article {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        article:hover {
-            
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-         }
-
-
-        img {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-
-
-
-        article h2 {
-            margin-top: 0;
-            font-size: 1.5em;
-        }
-        article p {
-            margin: 1em 0;
-        }
-        .btn {
-            display: inline-block;
-            font-size: 0.9em;
-            color: #709ddb;
-            text-decoration: none;
-            border: 1px solid #709ddb;
-            border-radius: 6px;
-            padding: 8px 12px;
-            transition: background-color 0.2s, color 0.2s;
-        }
-        .btn:hover {
-            background-color: #709ddb;
-            color: #fff;
-        }
-        footer {
-            background-color: #24292e;
-            color: #fff;
-            text-align: center;
-            padding: 12px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            font-size: 0.9em;
-        }
-
-
-     
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-
-
-
-.quotetab {
-            background-color: #000;
-            border-color: #000;
-            color: #000;
-            padding-top: 0px;
-
-}
-
-
-
-
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-
-
-
-            
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="search.html">Search</a>
-  <a href="about-me.html">About Me</a>
-  <a href="acheivements.html">Achievements</a>
-  <a href="contact.html">Contact</a>
-</div>
-<span style="margin: 0;font-size: 2em;position: relative;cursor:pointer" onclick="openNav()">&#9776; &nbsp; &nbsp; &nbsp;  
-     My Blog</span>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-
-
-
-            
-
-        </div>
-    </header>
-
-
-
-
-    
-    <div class="wallpaper1">
-    <div class="container">
-        <article>
-            <h2>My first Blog!</h2>
-            <p><strong>Published on:</strong> August 15, 2024</p>
-            <p>Welcome to my very first blog post on my personal website! I’m excited to start this new chapter and share my thoughts, experiences, and future plans with you. Creating this site has been a journey, and I’m thrilled to finally have a platform where I can express myself and connect with others.</p>
-            <a href="Blogs/my-first-blog.html" class="btn">Read More</a>
-        </article>
-
-        <article>
-            <h2>My Website Journey</h2>
-            <p><strong>Published on:</strong> August 15, 2024</p>
-            <p>Over the past two weeks, I embarked on a journey that many of you might find both exciting and challenging: I built my very own website from scratch! It was an intense, rewarding experience that taught me a lot about web development and even more about balancing my academic life with personal projects. I wanted to share how I managed to pull this off in such a short time frame while keeping up with my studies.</p>
-        <a href="Blogs/website-journey.html" class="btn">Read More</a>
-        </article>
-
+        <a href="#blog1" class="rmB">Read More</a>
+      </div>
+      <div class="blog blog3">
+        <img src="images/96r4uv.jpg" alt="thumbnail">
+        <h2 class="blog1Title">Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
-            <img src="Photos\IMG_20240810_142601.jpg" alt="My Photo" width="290" height="387" style="border-radius:15px">
-
-
-            <article> <h2> A photo from my Coorg trip.</h2></article>
-        </div>
-
-        </div>
-
-
-<a class="quotetab"> 
-</a>
-<div class="wallpaper2">
-<div class="container" style="margin-top: 30px ;">
-            <article><h2> Photos I have taken:</h2>
-            <p> These are photos from my Mahabaleshwar trip in 2022.</p></article>
-
-
-
-
-
-            <div style="width: 290px; height: 387px; margin-bottom: 200px;">
-                <img class="mySlides" src="Photos\SlideShow\IMG_20221031_172420.jpg" style="width:100%">
-                <img class="mySlides" src="Photos\SlideShow\IMG_20221031_172516.jpg" style="width:100%">
-                <img class="mySlides" src="Photos\SlideShow\IMG_20221031_172637.jpg" style="width:100%">
-              </div>
-              <script>
-                var myIndex = 0;
-                carousel();
-                
-                function carousel() {
-                  var i;
-                  var x = document.getElementsByClassName("mySlides");
-                  for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";  
-                  }
-                  myIndex++;
-                  if (myIndex > x.length) {myIndex = 1}    
-                  x[myIndex-1].style.display = "block";  
-                  setTimeout(carousel, 2000); // Change image every 2 seconds
-                }
-                </script>
-
-            </div>
-            </div>
-
-
-
-    <footer>
-        <p>&copy; 2024 My Blog. All rights reserved.</p>
-    </footer>
-</body>
+        <a href="#blog3" class="rmB">Read More</a>
+      </div>
+    </div>
+    <div class="portfolio">
+      <img src="Photos/IMG_20240810_234300.jpg" alt="profile-photo">
+      <h2>Hey there! I'm Khalid, welcome to my Blog.</h2>
+    </div>
+    <div class="photography">
+      <div class="slideShow">
+        <img src="Photos\newSlideShow\IMG_20211228_172459.jpg" alt="Village-Photo">
+        <img src="Photos\newSlideShow\IMG_20211105_172449.jpg" alt="">
+        <img src="Photos\newSlideShow\IMG_20230430_174614.jpg" alt="">
+        <img src="Photos\newSlideShow\IMG_20240606_192726.jpg" alt="">
+      </div>
+    </div>
+    <div style="margin-block: 10vh">
+      Some other shit
+    </div>
+  </body>
 </html>

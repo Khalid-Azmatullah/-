@@ -165,14 +165,34 @@ body {
   max-height: 80vh;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.mobileNavbar {
+  opacity: 0;
+}
+.mobileTop {
+  opacity: 0;
+}
+
 @media only screen and (max-width: 500px) {
   .fixedNavbar {
     opacity: 0;
   }
   .blogPost {
-    top: 0px;
+    top: 50px;
   }
   .mobileNavbar {
+    opacity: 1;
     border-top: 1px solid hsl(0, 0%, 15%);
     background-color: hsl(0, 0%, 15%);
     position: fixed;
@@ -182,26 +202,40 @@ body {
     width: 100%;
     justify-items: center;
     align-items: center;
-    height: 50px;
+    height: 80px;
   }
 
   .btn img{
     height: 30px;
   }
+  .home {
+    background-color: hsl(0, 0%, 15%) !important;
+    z-index: 5;
+  }
+  .btn {
+    margin: 0;
+    width: 25vw;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    padding-block: 25px;
+  }
 
-  .mobileNavbar:hover{
+  .btn:hover{
     background-color: hsl(0, 0%, 23%);
   }
 
   .mobileTop {
-    position: fixed;
+    opacity: 1;
+    position: absolute;
     top: 0;
     width: 100%;
     background-color: hsl(0, 0%, 15%);
+    padding-block: 5px;
     text-align: center;
-    height: 40px;
+    height: 50px;
   }
   .mobileTop img {
-    height: 36px;
+    height: 40px;
   }
 }
